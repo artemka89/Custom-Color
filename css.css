@@ -1,0 +1,47 @@
+.options {   
+   margin: 100px auto 0;
+   width: 250px;
+   text-align: right;
+}
+.param {
+   padding: 5px 0;     
+}
+
+.width::-webkit-inner-spin-button,
+.height::-webkit-inner-spin-button {
+   appearance: none;
+}
+.width::-webkit-outer-spin-button,
+.height::-webkit-outer-spin-button {
+   appearance: none;
+}
+.btn-color {
+   width: 177px;
+}
+
+.custom-color {
+   position: relative;
+   margin: 0 auto;
+   width: 250px;
+}
+
+.square {
+   position: relative;
+   margin: 0 auto;
+   margin-top: 40px;
+   width: 200px;
+   height: 200px;
+   border: 1px solid #000;
+   border-radius: 5px;
+   background-color: rgb(60, 206, 206);
+}
+
+.custom-color::before {
+   content: '';
+   position: absolute;
+   top: -20px;
+   left: 0;  
+   width: 100%;
+   height: 1px;
+   background-color: rgb(204, 204, 204);
+}
